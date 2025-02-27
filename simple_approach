@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "9be7a28c",
+   "id": "e1999a17",
    "metadata": {
     "papermill": {
-     "duration": 0.003753,
-     "end_time": "2025-02-20T23:10:59.987500",
+     "duration": 0.003022,
+     "end_time": "2025-02-27T22:01:50.624722",
      "exception": false,
-     "start_time": "2025-02-20T23:10:59.983747",
+     "start_time": "2025-02-27T22:01:50.621700",
      "status": "completed"
     },
     "tags": []
@@ -20,13 +20,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d75e2f4d",
+   "id": "bc0d2985",
    "metadata": {
     "papermill": {
-     "duration": 0.002857,
-     "end_time": "2025-02-20T23:10:59.993886",
+     "duration": 0.001984,
+     "end_time": "2025-02-27T22:01:50.629295",
      "exception": false,
-     "start_time": "2025-02-20T23:10:59.991029",
+     "start_time": "2025-02-27T22:01:50.627311",
      "status": "completed"
     },
     "tags": []
@@ -38,21 +38,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "e666f9fe",
+   "id": "1b77273a",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2025-02-20T23:11:00.001542Z",
-     "iopub.status.busy": "2025-02-20T23:11:00.001117Z",
-     "iopub.status.idle": "2025-02-20T23:11:01.075073Z",
-     "shell.execute_reply": "2025-02-20T23:11:01.073860Z"
+     "iopub.execute_input": "2025-02-27T22:01:50.635503Z",
+     "iopub.status.busy": "2025-02-27T22:01:50.634984Z",
+     "iopub.status.idle": "2025-02-27T22:01:52.117272Z",
+     "shell.execute_reply": "2025-02-27T22:01:52.115594Z"
     },
     "papermill": {
-     "duration": 1.080389,
-     "end_time": "2025-02-20T23:11:01.077310",
+     "duration": 1.488174,
+     "end_time": "2025-02-27T22:01:52.119633",
      "exception": false,
-     "start_time": "2025-02-20T23:10:59.996921",
+     "start_time": "2025-02-27T22:01:50.631459",
      "status": "completed"
     },
     "tags": []
@@ -62,12 +62,12 @@
     "import numpy as np \n",
     "import pandas as pd\n",
     "import random\n",
-    "random.seed(1)"
+    "random.seed(22)"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "083138db",
+   "id": "f9a25699",
    "metadata": {
     "execution": {
      "iopub.execute_input": "2025-02-20T22:20:41.360126Z",
@@ -77,10 +77,10 @@
      "shell.execute_reply.started": "2025-02-20T22:20:41.360092Z"
     },
     "papermill": {
-     "duration": 0.003565,
-     "end_time": "2025-02-20T23:11:01.085049",
+     "duration": 0.002225,
+     "end_time": "2025-02-27T22:01:52.125267",
      "exception": false,
-     "start_time": "2025-02-20T23:11:01.081484",
+     "start_time": "2025-02-27T22:01:52.123042",
      "status": "completed"
     },
     "tags": []
@@ -92,19 +92,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "06d901e8",
+   "id": "93b95d0b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-02-20T23:11:01.094370Z",
-     "iopub.status.busy": "2025-02-20T23:11:01.093789Z",
-     "iopub.status.idle": "2025-02-20T23:11:01.125860Z",
-     "shell.execute_reply": "2025-02-20T23:11:01.124749Z"
+     "iopub.execute_input": "2025-02-27T22:01:52.132387Z",
+     "iopub.status.busy": "2025-02-27T22:01:52.131717Z",
+     "iopub.status.idle": "2025-02-27T22:01:52.170669Z",
+     "shell.execute_reply": "2025-02-27T22:01:52.168428Z"
     },
     "papermill": {
-     "duration": 0.038925,
-     "end_time": "2025-02-20T23:11:01.127879",
+     "duration": 0.045032,
+     "end_time": "2025-02-27T22:01:52.172910",
      "exception": false,
-     "start_time": "2025-02-20T23:11:01.088954",
+     "start_time": "2025-02-27T22:01:52.127878",
      "status": "completed"
     },
     "tags": []
@@ -120,7 +120,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "7deeb57c",
+   "id": "13c129df",
    "metadata": {
     "execution": {
      "iopub.execute_input": "2025-02-20T22:24:39.518671Z",
@@ -130,10 +130,10 @@
      "shell.execute_reply.started": "2025-02-20T22:24:39.518640Z"
     },
     "papermill": {
-     "duration": 0.00307,
-     "end_time": "2025-02-20T23:11:01.134437",
+     "duration": 0.002042,
+     "end_time": "2025-02-27T22:01:52.177634",
      "exception": false,
-     "start_time": "2025-02-20T23:11:01.131367",
+     "start_time": "2025-02-27T22:01:52.175592",
      "status": "completed"
     },
     "tags": []
@@ -145,19 +145,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "8aea1b54",
+   "id": "45e5fb02",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-02-20T23:11:01.142381Z",
-     "iopub.status.busy": "2025-02-20T23:11:01.141856Z",
-     "iopub.status.idle": "2025-02-20T23:11:01.147616Z",
-     "shell.execute_reply": "2025-02-20T23:11:01.146538Z"
+     "iopub.execute_input": "2025-02-27T22:01:52.183731Z",
+     "iopub.status.busy": "2025-02-27T22:01:52.183224Z",
+     "iopub.status.idle": "2025-02-27T22:01:52.189002Z",
+     "shell.execute_reply": "2025-02-27T22:01:52.188113Z"
     },
     "papermill": {
-     "duration": 0.012114,
-     "end_time": "2025-02-20T23:11:01.149662",
+     "duration": 0.011301,
+     "end_time": "2025-02-27T22:01:52.191049",
      "exception": false,
-     "start_time": "2025-02-20T23:11:01.137548",
+     "start_time": "2025-02-27T22:01:52.179748",
      "status": "completed"
     },
     "tags": []
@@ -167,16 +167,16 @@
     "def choices(topic):\n",
     "    prompt = f'''Topic: \"{topic}\"\n",
     "    The topic is best summarized by:\n",
-    "    0: {\" \".join(random.choices(words, k=10))}\n",
-    "    1: {\" \".join(random.choices(words, k=10))}\n",
-    "    2: {\" \".join(random.choices(words, k=10))}\n",
-    "    3: {\" \".join(random.choices(words, k=10))}\n",
-    "    4: {\" \".join(random.choices(words, k=10))}\n",
-    "    5: {\" \".join(random.choices(words, k=10))}\n",
-    "    6: {\" \".join(random.choices(words, k=10))}\n",
-    "    7: {\" \".join(random.choices(words, k=10))}\n",
-    "    8: {\" \".join(random.choices(words, k=10))}\n",
-    "    9: {\" \".join(random.choices(words, k=10))}\n",
+    "    0: {\" \".join(random.choices(words, k=3))} {topic}\n",
+    "    1: {\" \".join(random.choices(words, k=5))}\n",
+    "    2: {\" \".join(random.choices(words, k=5))}\n",
+    "    3: {\" \".join(random.choices(words, k=5))}\n",
+    "    4: {\" \".join(random.choices(words, k=5))}\n",
+    "    5: {\" \".join(random.choices(words, k=5))}\n",
+    "    6: {\" \".join(random.choices(words, k=5))}\n",
+    "    7: {\" \".join(random.choices(words, k=5))}\n",
+    "    8: {\" \".join(random.choices(words, k=5))}\n",
+    "    9: {\" \".join(random.choices(words, k=3))}{topic}\n",
     "\n",
     "    Select the number of the summary closest to the topic.\n",
     "    '''\n",
@@ -186,19 +186,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "638fea98",
+   "id": "c3c9aef1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-02-20T23:11:01.157861Z",
-     "iopub.status.busy": "2025-02-20T23:11:01.157459Z",
-     "iopub.status.idle": "2025-02-20T23:11:01.162844Z",
-     "shell.execute_reply": "2025-02-20T23:11:01.161723Z"
+     "iopub.execute_input": "2025-02-27T22:01:52.197983Z",
+     "iopub.status.busy": "2025-02-27T22:01:52.197530Z",
+     "iopub.status.idle": "2025-02-27T22:01:52.202566Z",
+     "shell.execute_reply": "2025-02-27T22:01:52.201694Z"
     },
     "papermill": {
-     "duration": 0.011612,
-     "end_time": "2025-02-20T23:11:01.164687",
+     "duration": 0.010585,
+     "end_time": "2025-02-27T22:01:52.204413",
      "exception": false,
-     "start_time": "2025-02-20T23:11:01.153075",
+     "start_time": "2025-02-27T22:01:52.193828",
      "status": "completed"
     },
     "tags": []
@@ -221,19 +221,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "6399d395",
+   "id": "77b9430b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-02-20T23:11:01.172552Z",
-     "iopub.status.busy": "2025-02-20T23:11:01.172216Z",
-     "iopub.status.idle": "2025-02-20T23:11:01.177378Z",
-     "shell.execute_reply": "2025-02-20T23:11:01.176238Z"
+     "iopub.execute_input": "2025-02-27T22:01:52.211778Z",
+     "iopub.status.busy": "2025-02-27T22:01:52.211174Z",
+     "iopub.status.idle": "2025-02-27T22:01:52.216354Z",
+     "shell.execute_reply": "2025-02-27T22:01:52.215486Z"
     },
     "papermill": {
-     "duration": 0.011082,
-     "end_time": "2025-02-20T23:11:01.179177",
+     "duration": 0.010729,
+     "end_time": "2025-02-27T22:01:52.218109",
      "exception": false,
-     "start_time": "2025-02-20T23:11:01.168095",
+     "start_time": "2025-02-27T22:01:52.207380",
      "status": "completed"
     },
     "tags": []
@@ -252,19 +252,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "f63cb02e",
+   "id": "9ef3b2b0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-02-20T23:11:01.187383Z",
-     "iopub.status.busy": "2025-02-20T23:11:01.187000Z",
-     "iopub.status.idle": "2025-02-20T23:11:01.196500Z",
-     "shell.execute_reply": "2025-02-20T23:11:01.195409Z"
+     "iopub.execute_input": "2025-02-27T22:01:52.225017Z",
+     "iopub.status.busy": "2025-02-27T22:01:52.224547Z",
+     "iopub.status.idle": "2025-02-27T22:01:52.237241Z",
+     "shell.execute_reply": "2025-02-27T22:01:52.235539Z"
     },
     "papermill": {
-     "duration": 0.015616,
-     "end_time": "2025-02-20T23:11:01.198186",
+     "duration": 0.018399,
+     "end_time": "2025-02-27T22:01:52.239203",
      "exception": false,
-     "start_time": "2025-02-20T23:11:01.182570",
+     "start_time": "2025-02-27T22:01:52.220804",
      "status": "completed"
     },
     "tags": []
@@ -283,19 +283,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "8c939f2e",
+   "id": "f5b25968",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-02-20T23:11:01.206359Z",
-     "iopub.status.busy": "2025-02-20T23:11:01.205988Z",
-     "iopub.status.idle": "2025-02-20T23:11:01.212675Z",
-     "shell.execute_reply": "2025-02-20T23:11:01.211276Z"
+     "iopub.execute_input": "2025-02-27T22:01:52.246600Z",
+     "iopub.status.busy": "2025-02-27T22:01:52.245708Z",
+     "iopub.status.idle": "2025-02-27T22:01:52.253399Z",
+     "shell.execute_reply": "2025-02-27T22:01:52.251697Z"
     },
     "papermill": {
-     "duration": 0.012954,
-     "end_time": "2025-02-20T23:11:01.214637",
+     "duration": 0.013408,
+     "end_time": "2025-02-27T22:01:52.255307",
      "exception": false,
-     "start_time": "2025-02-20T23:11:01.201683",
+     "start_time": "2025-02-27T22:01:52.241899",
      "status": "completed"
     },
     "tags": []
@@ -305,9 +305,9 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "['Topic: \"Compare and contrast the importance of self-reliance and adaptability in healthcare.\"\\n    The topic is best summarized by:\\n    0: adult cook explore witness self fan cream pregnancy spring twenty\\n    1: feature teacher produce judgment wish defense reflection because command together\\n    2: crazy rough of standard fortune farm elementary supposed ok view\\n    3: temperature celebration military boot ancient away supply session soul fashion\\n    4: original seize fundamental Muslim daily battery DNA territory motor treaty\\n    5: information dust seriously sorry actually poverty beside brother teen angle\\n    6: demonstration wonderful hide brown column depict resistance bond together fundamental\\n    7: week title emission digital Israeli blood place and active window\\n    8: emphasize obtain include even assistance tooth wedding wedding breathe crew\\n    9: out widely meat production poll discovery meaning equipment destroy bathroom\\n\\n    Select the number of the summary closest to the topic.\\n    '\n",
-      " 'Topic: \"Evaluate the effectiveness of management consulting in addressing conflicts within marketing.\"\\n    The topic is best summarized by:\\n    0: direction language incident pipe setting beyond aid spiritual household running\\n    1: above imply recommendation dear useful thirty airline agenda meaning United\\n    2: gallery criteria highly AIDS curriculum ice lap deer decision crowd\\n    3: injury electric affair spread mixture person Congress would succeed button\\n    4: eye recommendation rank undergo highly southern pour enterprise nonetheless teacher\\n    5: stick left northern already derive shoe hear communication message purpose\\n    6: pregnancy from identification lesson secretary look global king aim any\\n    7: pursue wing number glove comment leading wind scale may success\\n    8: decrease limitation veteran necessary initiative dominate mere virus accompany Senate\\n    9: social telescope Republican singer local more hit arrival surprising music\\n\\n    Select the number of the summary closest to the topic.\\n    '\n",
-      " 'Topic: \"Discuss the role of self-reliance in achieving success in software engineering.\"\\n    The topic is best summarized by:\\n    0: convert leave juice fitness female material paint orange ingredient ah\\n    1: debate completely nice such shop shock slowly direction star precisely\\n    2: bean admission address river device brand pale fee attribute closer\\n    3: mail combine dramatically rapid indication exhibit investor after generally hi\\n    4: conservative brain thin library couple once smart adviser adopt chef\\n    5: recall clothing qualify press medium cup where shoot literary cycle\\n    6: piano gold naturally exciting partnership aside end weak symptom equal\\n    7: submit estate United resist heavy difficult acid tall amount so\\n    8: wait musical commit Supreme what put let fund few cost\\n    9: preference household container border pose employee lawsuit expensive survival thin\\n\\n    Select the number of the summary closest to the topic.\\n    ']\n"
+      "['Topic: \"Compare and contrast the importance of self-reliance and adaptability in healthcare.\"\\n    The topic is best summarized by:\\n    0: personally fine send Compare and contrast the importance of self-reliance and adaptability in healthcare.\\n    1: so-called operate upon adult lawyer\\n    2: pause farmer commit prompt human\\n    3: dominant annual way finally burden\\n    4: criteria direct supply concept due\\n    5: bit interpretation count federal rely\\n    6: treaty speed analysis fund store\\n    7: allow copy king garage retirement\\n    8: reason instrument development decision division\\n    9: at pose clinicCompare and contrast the importance of self-reliance and adaptability in healthcare.\\n\\n    Select the number of the summary closest to the topic.\\n    '\n",
+      " 'Topic: \"Evaluate the effectiveness of management consulting in addressing conflicts within marketing.\"\\n    The topic is best summarized by:\\n    0: after your confident Evaluate the effectiveness of management consulting in addressing conflicts within marketing.\\n    1: butter pipe feeling tent decline\\n    2: voice exceed offensive twenty private\\n    3: transportation quote application taxpayer nose\\n    4: estimate constant straight new uniform\\n    5: science vs move province or\\n    6: discourse virtue evaluate seem viewer\\n    7: pine channel something possible confront\\n    8: appoint manage all treaty legal\\n    9: little hang politicallyEvaluate the effectiveness of management consulting in addressing conflicts within marketing.\\n\\n    Select the number of the summary closest to the topic.\\n    '\n",
+      " 'Topic: \"Discuss the role of self-reliance in achieving success in software engineering.\"\\n    The topic is best summarized by:\\n    0: tourist equipment friend Discuss the role of self-reliance in achieving success in software engineering.\\n    1: nevertheless empty observation mechanism how\\n    2: precisely mainly being yes fish\\n    3: hotel grow trust vessel lifetime\\n    4: gray bird theater commit memory\\n    5: fifty explosion five constitutional amazing\\n    6: marketing shine phrase cooking property\\n    7: architect hardly sort trail inquiry\\n    8: still laugh lovely nice world\\n    9: resist investigator regardingDiscuss the role of self-reliance in achieving success in software engineering.\\n\\n    Select the number of the summary closest to the topic.\\n    ']\n"
      ]
     }
    ],
@@ -318,19 +318,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "48a850d5",
+   "id": "f012835c",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-02-20T23:11:01.223348Z",
-     "iopub.status.busy": "2025-02-20T23:11:01.222975Z",
-     "iopub.status.idle": "2025-02-20T23:11:01.236441Z",
-     "shell.execute_reply": "2025-02-20T23:11:01.235252Z"
+     "iopub.execute_input": "2025-02-27T22:01:52.262240Z",
+     "iopub.status.busy": "2025-02-27T22:01:52.261699Z",
+     "iopub.status.idle": "2025-02-27T22:01:52.283556Z",
+     "shell.execute_reply": "2025-02-27T22:01:52.281567Z"
     },
     "papermill": {
-     "duration": 0.019986,
-     "end_time": "2025-02-20T23:11:01.238554",
+     "duration": 0.027945,
+     "end_time": "2025-02-27T22:01:52.286003",
      "exception": false,
-     "start_time": "2025-02-20T23:11:01.218568",
+     "start_time": "2025-02-27T22:01:52.258058",
      "status": "completed"
     },
     "tags": []
@@ -343,13 +343,13 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "a92e6a57",
+   "id": "9d3ceb95",
    "metadata": {
     "papermill": {
-     "duration": 0.003162,
-     "end_time": "2025-02-20T23:11:01.245272",
+     "duration": 0.002103,
+     "end_time": "2025-02-27T22:01:52.290820",
      "exception": false,
-     "start_time": "2025-02-20T23:11:01.242110",
+     "start_time": "2025-02-27T22:01:52.288717",
      "status": "completed"
     },
     "tags": []
@@ -399,14 +399,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.763817,
-   "end_time": "2025-02-20T23:11:01.870375",
+   "duration": 5.208037,
+   "end_time": "2025-02-27T22:01:53.016897",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-02-20T23:10:57.106558",
+   "start_time": "2025-02-27T22:01:47.808860",
    "version": "2.6.0"
   }
  },
