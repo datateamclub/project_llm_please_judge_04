@@ -1,3 +1,7 @@
+# Project 2: Contradictory, My Dear Watson
+
+For the second UM Data Team Club project we will be diving into Natural Language Inference (NLI). This time, our goal is to explore and analyze the relationships between different pairs of text to understand if one sentence logically follows from another. To do so, we will be attempting to solve the Contradictory, My Dear Watson challenge from Kaggle. The goal of this project is to perform two NLI models. The first one using the **BERT** (Bidirectional Encoder Representations from Transformers) model from preset, and the second one using the same model but doing **Transfer Learning**.
+
 # Project 5:  LLMs - You Can't Please Them All KAGGLE COMPETITION
 
 In this project, we explore the robustness of Large Language Models (LLMs) when used as evaluators of essay quality. Specifically, we participate in the Kaggle competition "[LLMs - You Can't Please Them All](https://www.kaggle.com/competitions/llms-you-cant-please-them-all)", which challenges participants to identify exploits in an LLM-as-a-judge system designed to evaluate essays.
